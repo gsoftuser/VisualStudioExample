@@ -46,6 +46,8 @@ int main(int ac, char* av[])
 	args[2] = "two";
 	args[3] = NULL;
 
+	system("cd");
+
 	switch (atoi(av[2]))
 	{
 	case 1:
