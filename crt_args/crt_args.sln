@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crt_args", "crt_args\crt_args.vcxproj", "{CFC8AE18-2396-4584-9732-C544ACC0C595}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crt_exe", "crt_exe\crt_exe.vcxproj", "{DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{CFC8AE18-2396-4584-9732-C544ACC0C595}.Release|x64.Build.0 = Release|x64
 		{CFC8AE18-2396-4584-9732-C544ACC0C595}.Release|x86.ActiveCfg = Release|Win32
 		{CFC8AE18-2396-4584-9732-C544ACC0C595}.Release|x86.Build.0 = Release|Win32
+		{DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D}.Debug|x64.ActiveCfg = Debug|x64
+		{DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D}.Debug|x64.Build.0 = Debug|x64
+		{DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D}.Debug|x86.Build.0 = Debug|Win32
+		{DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D}.Release|x64.ActiveCfg = Release|x64
+		{DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D}.Release|x64.Build.0 = Release|x64
+		{DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D}.Release|x86.ActiveCfg = Release|Win32
+		{DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
