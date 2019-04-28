@@ -4,11 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crt_args", "crt_args\crt_args.vcxproj", "{CFC8AE18-2396-4584-9732-C544ACC0C595}"
-	ProjectSection(ProjectDependencies) = postProject
-		{DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D} = {DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D}
-	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crt_exe", "crt_exe\crt_exe.vcxproj", "{DE4D90E3-8B0D-4D44-93E4-CEAD15589E9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CFC8AE18-2396-4584-9732-C544ACC0C595} = {CFC8AE18-2396-4584-9732-C544ACC0C595}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
